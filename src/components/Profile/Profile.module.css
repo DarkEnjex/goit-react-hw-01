@@ -1,0 +1,62 @@
+.container {
+    margin-left: 20px;
+    border: black solid;
+    width: 300px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.containerProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgProfile {
+    width: 100px;
+    background-color: rgba(7, 5, 0, 0.864);
+    border-radius: 50%;
+}
+
+.nameProfile {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tagProfile {
+    font-size: 20px;
+    color: rgb(139, 137, 137);
+}
+
+.spanTagProfile {
+    font-size: 15px;
+}
+
+.locationProfile {
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: rgb(139, 137, 137);
+}
+
+.list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(191, 191, 191);
+}
+
+.listItem {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid rgb(109, 109, 109);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.listSpan {
+    font-weight: bold;
+}
