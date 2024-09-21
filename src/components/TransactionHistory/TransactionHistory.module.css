@@ -1,0 +1,32 @@
+.table {
+    width: 600px;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr {
+    transition: background-color 0.3s ease;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+.tableHead {
+    background-color: #282828;
+    color: #fff;
+    font-weight: bold;
+}
