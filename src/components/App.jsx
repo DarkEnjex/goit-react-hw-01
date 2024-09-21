@@ -1,4 +1,4 @@
-import s from "./App.module.css";
+import "./App.module.css";
 import Profile from "./Profile/Profile.jsx";
 import userData from "./data/userData.json";
 
