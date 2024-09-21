@@ -5,6 +5,12 @@
     margin-bottom: 20px;
 }
 
+th {
+    background-color: #282828;
+    color: #fff;
+    font-weight: bold;
+}
+
 th,
 td {
     border: 2px solid black;
@@ -23,10 +29,4 @@ tr {
 
 tr:hover {
     background-color: yellow;
-}
-
-.tableHead {
-    background-color: #282828;
-    color: #fff;
-    font-weight: bold;
 }
